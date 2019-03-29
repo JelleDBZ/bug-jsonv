@@ -1,6 +1,6 @@
 {
   "name": "bug-jsonv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validator for JSON objects",
   "main": "index.js",
   "scripts": {
