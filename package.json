@@ -1,0 +1,19 @@
+{
+  "name": "bug-jsonv",
+  "version": "1.0.0",
+  "description": "Validator for JSON objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JelleDBZ/bug-jsonv.git"
+  },
+  "author": "Jelle De Buyzere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JelleDBZ/bug-jsonv/issues"
+  },
+  "homepage": "https://github.com/JelleDBZ/bug-jsonv#readme"
+}
