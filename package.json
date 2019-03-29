@@ -15,6 +15,8 @@
   "bugs": {
     "url": "https://github.com/JelleDBZ/bug-jsonv/issues"
   },
-  "homepage": "https://github.com/JelleDBZ/bug-jsonv#readme"
-  
+  "homepage": "https://github.com/JelleDBZ/bug-jsonv#readme",
+  "dependencies": {
+    "jsonschema": "^1.2.4"
+  }
 }
