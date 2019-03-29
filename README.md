@@ -12,7 +12,7 @@ var validator = require('bug-jsonv')
 #The message comes from the mqtt channel on which you subscribed
 ```Javascript
 var JSONdata = JSON.parse(message.toString()); 
-var jsonv = new validator(JSONdata); //JSONdatawill the object you get from the API
+var jsonv = new validator(JSONdata); //JSONdata will the object you get from the API
 
 if(jsonv.checkValidclientdata())
 { 
