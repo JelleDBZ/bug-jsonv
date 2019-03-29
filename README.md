@@ -9,7 +9,7 @@ var validator = require('bug-jsonv')
 
 ##Method that the group bug-game will use 
 <!-- JSONdatawill be the JSON object you want to give with this class (FOR GROUP GAME)-->
-#The message comes from the mqtt channel on which you subscribed
+####The message comes from the mqtt channel on which you subscribed
 ```Javascript
 var JSONdata = JSON.parse(message.toString()); 
 var jsonv = new validator(JSONdata); //JSONdata will the object you get from the API
