@@ -21,3 +21,4 @@ if(jsonv.checkValidclientdata())
 
 ##CONTACT 
 If you need any help, contact me at jelle.debuyzere@student.vives.be
+https://www.npmjs.com/package/bug-jsonv
