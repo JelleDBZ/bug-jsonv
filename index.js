@@ -56,10 +56,10 @@ var schemaNewhardware = {
     "id" : "/schemaNewhardware",
     "type" : "object",
     "properties" : {
-        "id" : {"type" : "integer"},
-        "add_1" : {"type" : "integer"},
-        "add_2" : {"type" : "integer"},
-        "add_3" : {"type" : "integer"},
+        "id" : {"type" : "string"},
+        "add_1" : {"type" : "string"},
+        "add_2" : {"type" : "string"},
+        "add_3" : {"type" : "string"},
         "dev_id": {"type" : "string"}
     },
     "required": ["id", "add_1" , "add_2" , "add_3"]
@@ -89,11 +89,11 @@ var jsonschemaController = {
     "id": "/SchemaController",
     "type": "object",
     "properties": {
-        "id": {"type": "integer"},
+        "id": {"type": "string"},
         "addons": {
             "type": "array",
             "items":  {
-                "type": ["integer", null]
+                "type": ["string", null]
             }
         },
         "dev_id": {"type": "string"}
