@@ -1,7 +1,7 @@
-##How to install
+## How to install
 npm i bug-jsonv
 
-##How to use
+## How to use
 <!--This will require the npm package into the file you want to use-->
 ```Javascript
 var validator = require('bug-jsonv')
