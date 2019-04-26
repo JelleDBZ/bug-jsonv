@@ -79,7 +79,6 @@ var jsonschemaPlayer = {
         "action": {
             "type": ["string", null]
         },
-        "joined": {"type": "boolean"},
     },
     "required": ["dev_id"]
 };
