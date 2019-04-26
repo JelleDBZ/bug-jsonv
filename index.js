@@ -45,7 +45,7 @@ var schemaButton = {
     "id": "/schemaButton",
     "type": "object",
     "properties": {
-        "movements": {"type": "string"},
+        "movement": {"type": "string"},
         "action":  {"type": "string"},
         "dev_id":  {"type": "string"}
     },
